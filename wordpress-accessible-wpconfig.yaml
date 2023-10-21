@@ -10,7 +10,7 @@ info:
     cvss-score: 5.3
     cwe-id: CWE-200
   metadata:
-    max-request: 30
+    max-request: 5
   tags: wordpress,backup
 
 http:
@@ -30,7 +30,6 @@ http:
         words:
           - "DB_NAME"
           - "DB_PASSWORD"
-          - "DBNAME"
         part: body
         condition: and
 
