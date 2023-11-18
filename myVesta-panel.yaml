@@ -21,7 +21,7 @@ http:
     matchers:
       - type: word
         words:
-          - '<title>myVesta - Login</title>'
+          - "<title>myVesta - LOGIN</title>"
 
       - type: status
         status:
